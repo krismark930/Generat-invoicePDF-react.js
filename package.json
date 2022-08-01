@@ -1,0 +1,57 @@
+{
+  "name": "tweb-invoice-generator",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://taggedweb.com/tools/invoice-generator/",
+  "dependencies": {
+    "@craco/craco": "^6.4.5",
+    "@react-pdf/renderer": "^2.3.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.3.0",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.1",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "date-fns": "^2.29.1",
+    "next": "^12.2.3",
+    "process": "^0.11.10",
+    "rc-slider": "10.0.1",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-textarea-autosize": "^8.3.4",
+    "stream-browserify": "^3.0.0",
+    "typescript": "~4.7.4",
+    "util": "^0.12.4"
+  },
+  "scripts": {
+    "dev": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^4.4.2",
+    "node-sass": "^7.0.1"
+  }
+}
